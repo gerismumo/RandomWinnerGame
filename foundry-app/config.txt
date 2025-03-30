@@ -1,0 +1,10 @@
+Deployer: 0x4E7B274ce6fAAcdB4d247FDcCd0362dd79E7B59d
+Deployed to: 0x3692fF0566902a6E026ffbD399E1e825293cE8690x3692fF0566902a6E026ffbD399E1e825293cE869
+Transaction hash: 0xa8931a3eca613b0c5ca6b05c29978266b7802af8ecd366a1aa0e07bf3de03246
+Starting contract verification...
+Waiting for sourcify to detect contract deployment...
+Start verifying contract `0x3692fF0566902a6E026ffbD399E1e825293cE869` deployed on sepolia
+Compiler version: 0.8.28
+
+
+graph init --protocol ethereum --network sepolia --from-contract 0x3692fF0566902a6E026ffbD399E1e825293cE869 random-winner-game

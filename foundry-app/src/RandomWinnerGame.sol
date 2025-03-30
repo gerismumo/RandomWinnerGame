@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.24;
+pragma solidity ^0.8.21;
 
-import "chainlink/src/v0.8/shared/access/ConfirmedOwner.sol";
-import "chainlink/src/v0.8/shared/interfaces/LinkTokenInterface.sol";
-import "chainlink/src/v0.8/vrf/dev/VRFV2PlusWrapperConsumerBase.sol";
-import "chainlink/src/v0.8/vrf/dev/libraries/VRFV2PlusClient.sol";
+import "chainlink/contracts/src/v0.8/shared/access/ConfirmedOwner.sol";
+import "chainlink/contracts/src/v0.8/shared/interfaces/LinkTokenInterface.sol";
+import "chainlink/contracts/src/v0.8/vrf/dev/VRFV2PlusWrapperConsumerBase.sol";
+import "chainlink/contracts/src/v0.8/vrf/dev/libraries/VRFV2PlusClient.sol";
 
 
 
