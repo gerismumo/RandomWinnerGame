@@ -29,10 +29,10 @@ dataSources:
           handler: handleGameEnded
         - event: GameStarted(uint256,uint8,uint256)
           handler: handleGameStarted
-        - event: OwnershipTransferRequested(indexed address,indexed address)
-          handler: handleOwnershipTransferRequested
-        - event: OwnershipTransferred(indexed address,indexed address)
-          handler: handleOwnershipTransferred
+        # - event: OwnershipTransferRequested(indexed address,indexed address)
+        #   handler: handleOwnershipTransferRequested
+        # - event: OwnershipTransferred(indexed address,indexed address)
+        #   handler: handleOwnershipTransferred
         - event: PlayerJoined(uint256,address)
           handler: handlePlayerJoined
       file: ./src/random-winner-game.ts
